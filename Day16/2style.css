@@ -1,0 +1,29 @@
+
+    /* M1 to remove margin (*+Width) or (left,top,right) */
+*{
+    margin: 0;
+}
+
+header{
+    background-color: cadetblue;
+    position: fixed;
+    width: 100%;
+        /* M2 */
+    /* left: 0px;
+    top: 0px;
+    right: 0px; */
+}
+
+main{
+        /* yaha par humna padding top ka use kiya margin top ka use nahi kiya hai kyuki jab hum header ko position fixed deta hai toh wo apna position chor deta hai and baki ka content usko fill kar dega here it is p so agar hum margin top deta hai toh ye uppar sai margin legi but iska content size mai koi change nahi hoga toh ye overlap karega but agar hum padding top deta hai toh content toh sai move karega and box size bhi bhadega then it will not overlap */
+    
+        /* padding mai box size bada hota hai but margin sai box size bada nahi hota hai because BOX = Content + Padding + Border but not Margin */
+    padding-top: 60px;
+
+        /* margin-top par agar huma ye kaam karwana hai toh left=0 right=0 top=0 ka use kare */
+    /* margin-top: 100px; */
+}
+
+/* M1 (*->margin:0 + padding-top ->60px + width:100%) */
+/* M2 (left:0px,top:0px,right:0px)+(padding-top:60px) */
+/* M3 (left:0px,top:0px,right:0px)+(margin-top:100px)  */

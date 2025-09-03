@@ -1,0 +1,54 @@
+h2{
+    background-color: aqua;
+    width: 50vw;
+    height: 200px;
+
+
+    /* border-width: 5px; 
+    border-style:solid;
+    border-color:brown; 
+    border-radius: 15px;  */
+        /* shortcut */
+    border: 5px brown solid ;
+
+        /* Ye bhi clockwise direction mai chalti hai start from top */
+    /* padding: 10px; */
+    /* padding: 10px 20px; */
+    /* padding: 10px 20px 30px; */
+    padding: 10px 20px 30px 40px;
+
+        /* Ye bhi clockwise direction mai chalta hai start from top */
+    /* margin: 50px; */
+    /* margin: 10px 20px; */
+    /* margin: 10px 20px 30px; */
+    /* margin: 10px 20px 30px 40px; */
+    
+}
+
+h4{
+    background-color: plum;
+    border-left-width: 10px;
+    border-left-color: green;
+    border-left-style: solid;
+    /* border-style: solid; */
+
+        /* when we have 2 option for border width it will be allocated to top and bottom, right and left */
+        /* Clockwise Direction starting from top */
+    /* border-width: 10px 20px; */
+    /* border-width: 10px 20px 30px; */
+    /* border-width: 10px 20px 30px 40px;
+    border-style: solid;
+    border-color: goldenrod; */
+}
+
+ul{
+    background-color: pink;
+}
+
+p{
+    /* background-color: tomato; */
+    border-width: 10px;
+    border-color: black;
+    border-style: dashed;
+    padding: 15px;
+}

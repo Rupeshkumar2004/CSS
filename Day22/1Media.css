@@ -1,0 +1,38 @@
+
+/* yaha humna general CSS desktop ke likhi */
+.container{
+    background-color: blue;
+    /* height: 500px;
+    width: 400px; */
+    display: flex;
+}
+
+.box{
+    height: 300px;
+    width: 300px;
+    color: red;
+    background-color: aqua;
+    margin:30px ;
+}
+
+    /* Mobile Phone */
+/* @media(max-width:600px){
+    .container{
+        flex-direction: column;
+    }
+} */
+
+    /* Tablet max width 900px, 601px min*/
+/* @media(min-width:601px) and (max-width:900px){
+    .container{
+        flex-direction: column;
+    }
+} */
+
+/* @media(max-width:500px){
+    .container{
+        background-color: rgb(164, 71, 93);
+        height: 200px;
+        width: 200px;
+    }
+} */

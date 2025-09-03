@@ -1,0 +1,35 @@
+    /* Universal Selector */
+/* *{
+    background-color: aqua;
+    color: brown;
+}  */
+
+    /* Group Selector */
+/* h1,h2,p,#third{
+    background-color: crimson;
+} */
+
+    /* Attribute Selector or select by attribute*/
+/* h2[draggable="true"]{
+    background-color: aquamarine;
+} */
+
+    /* Descendent Selector ye sara p tag par change kar dega  */
+/* section p{
+    background-color: aqua;
+} */
+
+    /* Select by child ye sirf usi p tag par change karega jo directly iska under aayega */
+/* section > p{
+    background-color: aqua;
+} */
+
+    /* id selector with class selector */
+/* #main-content.highlighted{
+    background-color: yellow;
+} */
+ 
+.highlighted#main-content{
+    background-color: darkviolet;
+}
+

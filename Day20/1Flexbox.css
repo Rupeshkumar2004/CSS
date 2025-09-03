@@ -1,0 +1,104 @@
+/* Jaha par align aaya wo cross axis ka along property apply hoga */
+
+.container{
+    background-color: aqua;
+    height: 700px;
+
+    /* issai sara child element main axis mai aa jayega */
+
+    display: flex;
+
+        /* Flex Direction */
+        /* flex-direction will  identify my main axis*/
+        /* row: horizontal is main axis */
+        /* column: vertical is main axis */
+
+    flex-direction:row;
+    /* flex-direction: column; */
+    /* flex-direction: row-reverse; */
+    /* flex-direction: column-reverse; */
+
+        /* Justify content -> it will be around main axis */
+
+    /* justify-content: start; */
+    /* justify-content: end; */
+    /* justify-content: center; */
+   
+        /* evenly spaces b/w each box */
+    /* justify-content: space-around;   */
+
+        /* evenly spaces b/w boxes */
+    /* justify-content: space-between; */
+
+        /* equal distance b/w each and every box */
+    /* justify-content:space-evenly ; */
+
+
+        /* Align-Items -> works around cross axis */
+
+    /* align-items: end; */
+    /* align-items: start; */
+    /* align-items: center; */
+
+        /* stretch->(by default) ye item ko pura stretch kar data hai cross axis ka along agar humna height nahi fix ki hai toh */
+    /* align-items: stretch; */
+
+        /* ye sara element ko same basline par la deta hai */
+    /* align-items: baseline; */
+
+
+        /* flex-wrap -> ye content ko next line mai le aata hai agar space nahi hai toh*/
+    
+    /* flex-wrap: nowrap; */
+    flex-wrap: wrap;
+    /* flex-wrap: wrap-reverse; */
+
+
+        /* Align-Content -> ye content ka beech ka spacing handle karta hai*/
+        /* ish property ko lagana ka liya hamara flex-wrap : wrap hona chaiye */
+    
+    align-content:center;
+    /* align-content: end; */
+    /* align-content: start; */
+    /* align-content: space-around; */
+    /* align-content: space-between; */
+    /* align-content: space-evenly; */
+}
+
+.box{
+    height: 150px;
+    width: 150px;
+    border: 5px solid black;
+    margin: 5px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+
+
+.box1{
+    background-color: red;
+}
+
+.box2{
+    background-color: blue;
+}
+
+.box3{
+    background-color: green;
+}
+
+.box4{
+    background-color: orange;
+}
+
+
+    /* To explain text-align:baseline */
+/* .first{
+    font-size: 50px;
+    margin: 10px;
+}
+
+.second{
+    font-size: 25px;
+} */

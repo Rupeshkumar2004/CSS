@@ -1,0 +1,16 @@
+/* Ye execute nahi hoga */
+p > div{
+    background-color: aqua;
+}
+
+/* Ye execute hoga */
+div > p {
+    background-color: aqua;
+}
+
+ul > li{
+    background-color: rgb(96, 96, 15);
+}
+
+
+

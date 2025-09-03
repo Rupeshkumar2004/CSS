@@ -1,0 +1,75 @@
+ .container{
+    background-color: blanchedalmond;
+    margin-left: 200px;
+    margin-top: 150px;
+    /* position: relative;  */
+    height: 1000px; 
+ }
+
+ .newcontainer{
+   height: 800px;
+   background-color: blueviolet;
+ }
+
+ .box{
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+ }
+
+ .box1{
+    background-color: red;
+
+        /* static position by default hota hai ismai top,bottom,left,right koi kaam nahi karta hai*/
+    /* position: static;
+    top: 20px; */
+ }
+
+ .box2{
+    background-color: blue;
+
+        /* relative position mai ye apna original position ka respact mai move karega(top,left,right,bottom) and iska original jagah khali hi rahega*/
+    position: relative; 
+    /* top: 20px; */
+    /* right: 30px; */
+    /* bottom: 40px; */
+    /* left: 50px;  */
+ }
+
+ .box3{
+    background-color: green;
+        /* absolute position mai ye apna original position empty kar deta hai and iski jagah par dusra box aa jayega and ismai jab hum (top,left,right,bottom) deta hai toh ye apna parent ko dekhaga agar usko koi position mili hogi except STATIC then ye uska basis par move karega agar parent ko koi position nahi mili hai toh ye apna grandparent ki or dekhaga or same cheez dekhaga and agar kisi ko koi position nahi milli hai jo bhi iski uppar hai then ye viewport size i.e screen size ka hisab sai move karega */
+    /* position: absolute; 
+    top: 10px;
+    left: 10px;  */
+ }
+
+ .box4{
+    background-color: orange;
+        /* Fixed Position mai ye apna original position empty kar deta hai and iski jagah par dusra box aa jayega and ye move viewport size i.e screen size ka hisab sai move karta hai*/
+        /* iski position fixed ho gayi hai hum screen up down bhi karega phir bhi iski position wahi par rahegi */
+    /* position: fixed; */
+    /* top: 30px; */
+    /* left: 30px; */
+ }
+
+ .box5{
+    background-color: darkolivegreen;
+       /* ye fixed ki hi tarah hai but ye apna original position gher ka rakta hai and ye sirf apna box mai hi move karaga but fixed wala pura viewport mai bhi move karega */
+    position: sticky;
+    top: 20px;
+    left: 10px;
+ }
+
+ .box6{
+   background-color: deeppink;
+ }
+
+
+
+ /* top bottom left right */
+ /* Static */
+ /* Relative */
+ /* Absolute */
+ /* Fixed */
+ /* Sticky */

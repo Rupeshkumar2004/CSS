@@ -1,0 +1,48 @@
+/* Name ke sath */
+h1{
+   color: blue;
+    background-color: aqua;
+
+        /* Change Font Display */
+    font-family:Arial, Helvetica, sans-serif;
+        /* pixel size is determined by your device size*/
+    /* font-size: 40px; */
+        /* em -> relative to parent font size here h1 parent is body */
+    /* font-size: 3em; */
+        /* rem -> relative to html font size here */
+    /* font-size: 3rem; */
+        /* % -> relative to parent font size h1 parent is body */
+    /* font-size: 100%; */
+}
+
+/* *{
+    background-image: url(./pexels-ferarcosn-190819.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+} */
+
+    /* Change by rgb 0-255 */
+/* h3{
+    color: rgb(13, 220, 18);
+} */
+
+    /* Hexadecimal ko use karna */
+    /* # tag use, 6 character(0-f) */
+    /* 6 character isliya aaya kyoki 0-255 mai 8 bit hota hai and ek character 4 bit ka hota nai so 8*3 == 6*4 */
+/* h2{
+    color: #2d34f2;
+} */
+
+    /* color(0-360),intensity(0-100%),brightness(0-100%) */
+/* p{
+    background-color: hsl(69, 63%, 44%);
+    color: aqua;
+} */
+
+    /* a ko hum sab ka sath likh sakta hai alpha ->(0-1)blur to light*/
+/* h4{
+    color: rgba(240, 29, 71,0.5);
+} */
+
+
+/* name,rgb,hex,hsl */

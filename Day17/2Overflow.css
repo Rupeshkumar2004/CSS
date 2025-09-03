@@ -1,0 +1,13 @@
+/* Wrong */
+div{
+    /* display: inline-block; */
+    height: 200px;
+    width: 200px;
+    background-color: aqua;
+    /* overflow: hidden; */
+    overflow: scroll;
+}
+
+/* By defaulkt overflow is visible */
+/* overflow -> hidden means jo content uss box mai aaya usi ko visible rakho baki sab ko hide kar doa */
+/* overflow -> scroll means sara content ko usi box mai fit kar doa and jab hum scroll kare tab dikha  */

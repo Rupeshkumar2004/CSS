@@ -1,0 +1,56 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #333;
+    background-color: #f0f0f0;
+}
+
+.head{
+    background-color: #4CAF50;
+    color: white;
+}
+
+h1{
+    font-size: 3em;
+    font-weight: bold;
+}
+
+h2{
+    font-size: 1.5em;
+    color: #FFD700;
+}
+
+.art{
+    background-color: white;
+}
+
+article > h3{
+    font-size: 1.6em;
+    color: brown;
+}
+
+article > p{
+    font-size: small;
+    color: darkmagenta;
+}
+
+h4{
+    color: #FF69B4;
+    font-size: 1.5em;
+}
+
+.th{
+    background-color: #ab7575;
+    border: 10px solid #FF69B4;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+th{
+    background-color: #00ff26;
+    color: white;
+}
+
+footer{
+    color: #333;
+    background-color: #ccc;
+}

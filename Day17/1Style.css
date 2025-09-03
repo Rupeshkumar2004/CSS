@@ -1,0 +1,40 @@
+.box{
+    display: inline-block;
+    height: 200px;
+    width: 200px;
+}
+
+.container{
+    background-color: aqua;
+    margin-top: 100px;
+    margin-left: 100px;
+}
+
+.box1{
+    background-color: red;
+    position: relative;
+    left: 250px;
+    z-index: 7;
+}
+
+.box2{
+    background-color: blue;
+    position: relative;
+    top: 20px;
+    left: 20px;
+    z-index: 9;
+}
+
+    /* z-index batati hai ki jab do ya ussa jayada element overlap karega toh kon sa element dikhaga yani jiski z-index jayada wo uppar dikhaga */
+    /* z-index can be negative */
+    /* z-index apply karna sai phela hamamusi same element ka position mentioned karna padega except static */
+    /* Default z-index of each element is auto */
+.box3{
+    background-color: green;
+    position: relative;
+    z-index: 5;
+}
+
+.box4{
+    background-color: orange;
+}

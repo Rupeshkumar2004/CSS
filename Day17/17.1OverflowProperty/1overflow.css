@@ -1,0 +1,14 @@
+
+.container{
+    height: 200px;
+    width: 200px;
+    background-color: aqua;
+    /* overflow: hidden; */
+    /* overflow: scroll; */
+    overflow: auto;
+}
+
+/* By defaulkt overflow is visible -> ye sara content dikhayaga box ka bahr box bhar jana ka baad*/
+/* overflow -> hidden means jo content uss box mai aaya usi ko visible rakho baki sab ko hide kar doa */
+/* overflow -> scroll means sara content ko usi box mai fit kar doa and jab hum scroll kare tab dikha  */
+/* overflow -> auto means sara content usi box ka under aa jayaga and scroll bar khud wa khud aa jayega */

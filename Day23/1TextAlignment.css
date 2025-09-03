@@ -1,0 +1,26 @@
+h1{
+    background-color: aqua;
+    color: orange;
+    /* text-align ->left,right,center,justify */
+    /* text-align: center; */
+    text-align: justify; /* ye hamara content ko left and right sai equal space de deta hai */
+}
+
+div{
+    /* text-align = centre-> ye div ka andar likhi gayi  sari block level element ka content centre kar dega but inline ka case mai ya ye element ko hi centre kar dega*/
+    text-align: center;
+    background-color: aquamarine;
+}
+
+h2{
+    background-color: pink;
+}
+
+p{
+    background-color: bisque;
+}
+
+button{
+    background-color: red;
+}
+

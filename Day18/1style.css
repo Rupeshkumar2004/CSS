@@ -1,0 +1,155 @@
+*{
+    margin: 0; /*S1 (i)*/
+} 
+
+body{
+    background-color: rgb(235, 233, 223); /* S17 */
+}
+
+.card:hover{
+    background-color: white; /* S18 */
+    border-color: white;  /* S19(ii) */
+
+    /* ish sai aapka card move hota hai outward  */
+    /* border: 10px solid white;   19(iii)  */
+}
+
+.box{
+    
+    display: inline-block;  /* S1 (iii) S21*/
+
+}
+
+.img{
+    height: 200px; /* S2 */
+    width: auto;  /* S2 */
+    border-radius: 20px; /* S3 */
+}
+
+.restaurant_name{
+    font-size: 20px; /* S4 */
+    font-weight: bold; /* S4 */
+}
+
+.card {
+    display: inline-block; /* S7(0) */
+    margin-left: 60px; /* S8(i) */
+    margin-top: 10px; /* S8(ii) */
+    cursor: pointer; /* S14 */
+    border: 20px solid rgb(235, 233, 223); /* S19(i) */
+}
+
+.restaurant,.food,.location{ /* .food -> S12(i)  .location -> S13(i)*/
+    position: relative; /* S7(i) */
+    margin-top: 10px; /* S9(i) */
+    margin-left: 10px; /* S9(ii) */
+}
+
+.rating{
+    background-color: green; /* S5 */
+    height: 20px; /* S6 */
+    padding: 3px; /* S6 */
+    position: absolute; /*S7(ii)*/
+    right: 5px; /* S7(iii) */
+    color: white; /* S10(i) */
+    border-radius: 8px; /* S11 */
+    
+}
+
+.price,.distance{ /* .distance -> S13(ii) */
+    position: absolute; /* S12(ii) */
+    right: 5px; /* S12(iii) */
+}
+
+.food,.place{
+    font-size: 15px; /* S15(i) */
+    color: rgb(87, 78, 78); /* S15(ii) */
+}
+
+.distance{
+    font-size: 10px; /* S16(i) */
+    font-weight: bold; /* S16(ii) */
+}
+
+.image {
+    position: relative; /* S20(0)*/    
+}
+
+.off{
+    font-size: 30px; /* S20(i)*/    
+    color: white; /* S20(ii)*/    
+    background-color: rgba(234, 28, 28, 0.4); /* S20(iii)*/    
+    position: absolute; /* S20(iv)*/    
+    bottom: 10px; /* S20(v)*/ 
+    left: 5px;  /* S20(vi)*/  
+}
+
+.first {
+    margin-left: 200px; /* S22 S32*/
+    margin-bottom: 20px; /* S37*/  
+}
+
+.brand{
+    color: rgb(216,5,5); /* S23(i) */
+    margin-right: 50px; /* S23(ii) */
+    font-weight: bold;  /* S23(iii) */
+    font-size: 30px;
+}
+
+.searching{
+    height: 20px;
+    width: 300px; /* S24(i) */
+    margin-right: 50px; /* S24(ii) */
+    position: relative; /* S25(i) */
+    bottom: 13px; /* S25(ii) */
+}
+
+button{
+    height: 50px; /* S26(i) */
+    width: 80px;  /* S26(ii) */
+    position: relative;  /* S27(i) */
+    bottom: 10px; /* S27(ii) */
+    font-size: 15px; /* S28(i) */
+    margin-right: 50px;  /* S28(ii) */
+    background-color: white; /* S29(ii) */
+    border: none; /* S30 */
+    color: rgb(101, 97, 97); /* S31 */
+}
+
+.head{
+    background-color: white; /* S29(i) */
+}
+
+.img3{
+    height: 70px; /* S33(i)*/  
+    width: 70px;  /* S33(ii)*/
+}
+
+.dine,.Delivery,.Nightlife{
+    position: relative; /* S34(i)*/
+    bottom: 23px; /* S34(ii)*/
+    margin-left: 5px; /* S35(i)*/
+    font-size: 20px; /* S35(ii)*/
+    color: rgb(98, 94, 94); /* S35(iii)*/
+}
+
+.delivery{
+    margin-left: 50px; /* S36(i)*/
+    margin-right: 50px; /* S36(ii)*/
+}
+
+.second{
+    padding-bottom: 10px; /* S38*/  
+    position: sticky; /* S40(i)*/ 
+    top: 0px; /* S40(ii)*/ 
+    background-color: white; /* S41 */ 
+}
+
+.third{
+    height: 500px; /* S39(i)*/
+    background-color: gray; /* S39(ii)*/
+}
+
+.dining{
+    margin-left: 200px;  /* S42 */ 
+}

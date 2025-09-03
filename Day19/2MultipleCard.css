@@ -1,0 +1,86 @@
+*{
+    margin: 0; /*S1 (i)*/
+} 
+
+body{
+    background-color: rgb(235, 233, 223); /* S17 */
+}
+
+.card:hover{
+    background-color: white; /* S18 */
+    border-color: white;  /* S19(ii) */
+
+    /* ish sai aapka card move hota hai outward  */
+    /* border: 10px solid white;   19(iii)  */
+}
+
+.box{
+    
+    display: inline-block;  /* S1 (iii)*/
+
+}
+
+.img{
+    height: 250px; /* S2 */
+    width: 260;  /* S2 */
+    border-radius: 20px; /* S3 */
+}
+
+
+.restaurant_name{
+    font-size: 20px; /* S4 */
+    font-weight: bold; /* S4 */
+}
+
+.card {
+    display: inline-block; /* S7(0) */
+    margin-left: 10px; /* S8(i) */
+    margin-top: 10px; /* S8(ii) */
+    cursor: pointer; /* S14 */
+    border: 20px solid rgb(235, 233, 223); /* S19(i) */
+}
+
+.restaurant,.food,.location{ /* .food -> S12(i)  .location -> S13(i)*/
+    position: relative; /* S7(i) */
+    margin-top: 10px; /* S9(i) */
+    margin-left: 10px; /* S9(ii) */
+}
+
+.rating{
+    background-color: green; /* S5 */
+    height: 20px; /* S6 */
+    padding: 3px; /* S6 */
+    position: absolute; /*S7(ii)*/
+    right: 5px; /* S7(iii) */
+    color: white; /* S10(i) */
+    border-radius: 8px; /* S11 */
+    
+}
+
+.price,.distance{ /* .distance -> S13(ii) */
+    position: absolute; /* S12(ii) */
+    right: 5px; /* S12(iii) */
+}
+
+.food,.place{
+    font-size: 15px; /* S15(i) */
+    color: rgb(87, 78, 78); /* S15(ii) */
+}
+
+.distance{
+    font-size: 10px; /* S16(i) */
+    font-weight: bold; /* S16(ii) */
+}
+
+.image {
+    position: relative; /* S20(0)*/    
+}
+
+.off{
+    font-size: 30px; /* S20(i)*/    
+    color: white; /* S20(ii)*/    
+    background-color: rgba(234, 28, 28, 0.4); /* S20(iii)*/    
+    position: absolute; /* S20(iv)*/    
+    bottom: 10px; /* S20(v)*/ 
+    left: 5px;   
+}

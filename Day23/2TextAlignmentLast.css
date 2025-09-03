@@ -1,0 +1,28 @@
+p{
+    /* background-color: olivedrab; */
+        /* text-align-last -> ya last line par applicable hota hai */
+    /* text-align-last:right; */
+    /* text-align-last:center; */
+    /* text-align-last:left; */
+    text-align-last:justify;
+}
+
+    /* Direction ltr:left to right  rtl:right to left (hum content ko rtl mai right to left phadega and ltr mai left to right phadega */
+h1{
+    /* direction: ltr; */ 
+    direction: rtl;
+
+    /* Unicode-bidi: ye direction ka saath apply hoga and content ko usi direction mai likh dega */
+    unicode-bidi: bidi-override;
+}
+
+/* direction and unicode use case */
+h2{
+    direction: rtl;
+    unicode-bidi: bidi-override;
+}
+
+span{
+    /* vertical-align: sub; */
+    vertical-align: super;
+}

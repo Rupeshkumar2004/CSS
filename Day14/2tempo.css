@@ -1,0 +1,10 @@
+    /* margin ka koi farak nahi padta hai hamara content par lekin padding and border ka assar hamara content par padta hai */
+h1{
+    width: 200px;
+    height: 200px;
+    padding: 10px;
+    border: 5px solid black;
+    margin: 2x;
+
+    box-sizing: border-box;
+}

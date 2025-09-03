@@ -1,0 +1,22 @@
+.first{
+    display: inline-block;
+    height: 20vh;
+    width: 100vw;
+    background-color: blue;
+    position: absolute;
+    top: 200px;
+}
+
+.second{
+    /* display: inline-block; */
+    height: 100vh;
+    width: 10vw;
+    background-color: blue;
+    margin-left: 30vw;
+    position: relative;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}

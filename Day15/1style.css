@@ -1,0 +1,39 @@
+    /* Block element ko hum height,width,margin de sakta hai*/
+.first{
+    background-color: orange;
+    height: 200px;
+    width: 150px;
+    margin: 40px;
+
+    /* display: inline; */
+}
+
+.second{
+    background-color: aqua;
+    height: 200px;
+    width: 250px;
+    margin: 40px;
+
+    /* display: inline; */
+}
+
+    /* Inline Element  ko hum height,width nahi de sakta aur margin bhi sirf horizontal wala milata hai vertical wala nahi dikhta hai*/
+span{
+    background-color: green;
+    height: 200px;
+    width: 150px;
+    margin: 20px;
+    display: block;
+        /* display ->inline-block ismai jo element hoga wo behave karenga inline jaisa hi lekin usmai hum height width dono use kar sakta hai */
+    /* display: inline-block; */
+}
+
+/* Block element
+height,width,margin  hum de sakta hai*/
+
+/* Inline element 
+height,width  nahi de sakta
+margin sirf horizontal hi milega */
+
+/* Inline Block
+element jo hoga wo behave  karega inline jaisa hi lekin hum height width and margin  laga sakta hai*/

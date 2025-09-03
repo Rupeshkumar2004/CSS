@@ -1,0 +1,26 @@
+/* Agar hum chahata hai ki dono image ek hi idhar ho and ek ka nicha ek ho toh hum float ka saath saathclear ka bhi use karega */
+/* Rohit sharma ka image par clera statement kaam nahi karega kyuki wo virat kholi sai html mai upper likha gaya hai toh jab hum sharmaji par clear ka use karega toh ussa uppar koi hai hi nahi toh kaam nahi karega */
+.img1{
+    height: 200px;
+    width: 200px;
+    /* float: right; */
+    /* clear: left; */
+    
+    float: left;
+    /* margin-bottom: 10px; */
+}
+
+.img2{
+    height: 200px;
+    width: 200px;
+    /* float: right; */
+    /* clear: right; */
+    float: left;
+    clear: left;
+
+    /* float: right;
+    clear: both; */
+}
+
+/* clear -> right/left kahata hai ki agar mera right/left side koi element float kar raha ho toh mai uska nicha chala jauaga */
+/* clear -> both kahta hai ki agar mera right ya left kisi bhi taraf koi element float kar raha ho toh mui nicha chala jauaga */

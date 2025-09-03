@@ -1,0 +1,22 @@
+    /* FLoat sai hum kisi bhi elementko ko kahi par bhi shift kar sakta hai */
+    /* FLoat ka use hum horizontal line mai chezzo ko place karna hao */
+.img1{
+    height: 300px;
+    width: auto;
+
+    /* float: left;
+    margin-right: 30px; */
+
+    float: right;
+    margin-left: 20px;
+}
+
+ .img2{
+    height: 300px;
+    width: auto;
+
+    float: left; 
+    margin-right: 20px;  
+
+    /* float: right; */
+} 

@@ -1,0 +1,47 @@
+    /* Cascading ->  important > type > specificity > order*/
+    /* order -> for same element only jo baad mai same element par proparty di jayegi wo uss element par apply hoga */
+    /* Specificity -> id > attribute > class > child = descendent > element = group element*/
+    /* Type -> inline > Internal = External CSS */
+    /* !important -> ye jis type ka saath likh diya uski priority sabsa jayda hogi*/
+
+    /* Element Selector */
+h1{
+    /* background-color:rgb(217, 141, 26) !important;  */
+    /* background-color: rgb(206, 78, 131);  */
+    color: blue;  
+}   
+
+h1{
+    background-color:rgb(17, 222, 17);
+}
+
+    /* id Selector */
+/* #first_id{
+    background-color: pink;
+}  */
+
+    /* Class selector */
+/* .first_class{
+    background-color: aqua;
+}  */
+
+    /* Attribute Selector */
+/* h1[draggable="true"]{
+    background-color: rgb(20, 139, 83);
+} */
+
+    /* Descendent Selector */
+/* body h1{
+    background-color: black;
+} */
+
+    /* Child Selector */
+/* body > h1{
+    background-color: darkorange;
+} */
+
+
+    /* Inheritance Property*/
+body{
+    background-color: blueviolet;
+}

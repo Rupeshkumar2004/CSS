@@ -1,0 +1,27 @@
+/* Select by element */
+h1{
+    color: aquamarine;
+    background-color: black;
+}
+
+ul{
+    color:chocolate;
+    background-color: blue;
+}
+
+/* select by class name */
+/* you need to apply dot(.) first*/
+.first{
+    background-color: burlywood;
+    color: aqua;
+}
+
+.second{
+    background-color: pink;
+}
+
+/* select by id(unique) */
+/* (#) ko use karna hai, then id name  */
+#third{
+    background-color: blueviolet;
+}
