@@ -1,0 +1,86 @@
+.container{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 97vh;
+    width: 98vw;
+}
+
+.container{
+    background-color: wheat;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* display: grid;
+    place-content: center center; */
+    gap: 10rem;
+}
+
+.box1,.box2{
+    height: 200px;
+    width: 200px;
+    background-color: orange;
+    font-size: 4rem;
+    border: 5px solid black;
+        /* M1 to center items */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+        /* M2 to center items */
+    /* display: grid;
+    place-content: center center; */
+
+    transition-property: all;
+    transition-duration: 3s;
+    transition-timing-function: linear;
+}
+
+.box1:hover{
+    background-color: aqua;
+    /* transform: translate(400px); */
+    /* transform: translate(-400px); */
+    /* transform: translate(400px,200px); */
+    /* transform: translate(-400px,-200px); */
+
+    /* transform: scale(2); */
+    /* transform: scale(2,3); */
+    /* transform: scale(1,3); */
+
+    /* transform: rotate(45deg); */
+    /* transform: rotate(-45deg); */
+
+    /* transform: skew(40deg); */
+    /* transform: skew(-40deg); */
+
+        /* Shorthand notation */
+    /* transform: translate(200px,100px) scale(2) rotate(50deg) skew(40deg); */
+    transform: rotate(45deg);
+        /* ye fix kar deta hai ab element usi axis par move karegi */
+    transform-origin: bottom right;
+}
+
+.box2:hover{
+    transform: rotate(45deg);
+}
+    /* Translate */
+/* Ye move karata hai x-axis and y-axis mai */
+/* single translate: x-axis */
+/* double value in translate : x-axis, y-axis */
+/* x-axis: +ve: right side, else left */
+/* y-axis: +ve: bottom else top*/
+
+    /* Scale */
+/* ye bada and chota karna ka kaam aata hai */
+/* scale single value, it will scale by x */
+/* scale 2 value, it will increase width by x time and height by y times */
+
+    /* Rotate */
+/* rotate the box: +ve value: clockwise else anti clockwise */
+
+    /* Skew */
+/* ye box ko tilt karna ka kaam aata hai +ve: anticlockwise -ve: clockwise*/

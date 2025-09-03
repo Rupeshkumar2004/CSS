@@ -1,0 +1,158 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+}
+
+.container{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.orbit{
+    height: 100px;
+    width: 100px;
+    /* background-color: green; */
+    position: relative;
+}
+
+.sun{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: yellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* sabko ek hi position par le aayaga */
+    position: absolute;
+    /* bottom: 25px;
+    right: 25px; */
+    transform: translate(-25px,-25px);
+    
+}
+
+
+
+.mars{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: orange;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    animation-name: mar;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    
+}
+
+@keyframes mar {
+    from{
+        transform: rotate(0deg) translate(100px);
+    }
+
+    to{
+        transform: rotate(360deg) translate(100px);
+    }
+}
+
+.earth{
+    color: white;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    animation-name: ear;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+@keyframes ear {
+    from{
+        transform: rotate(0deg) translate(300px);
+    }
+
+    to{
+        transform: rotate(360deg) translate(300px);
+    }
+}
+
+.jupiter{
+    color: white;
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    animation-name: jup;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+@keyframes jup {
+    from{
+        transform: rotate(0deg) translate(400px) rotate(0deg);
+    }
+
+    to{
+        transform: rotate(360deg) translate(400px) rotate(-360deg);
+    }
+}
+
+
+.orbital1{
+    height: 200px;
+    width: 200px;
+    border: 1px dashed white;
+    border-radius: 50%;
+    position: absolute;
+    transform: translate(-75px,-75px);    
+}
+
+.orbital2{
+    height: 600px;
+    width: 600px;
+    border: 1px dashed white;
+    border-radius: 50%;
+    position: absolute;
+    transform: translate(-280px,-280px);    
+}
+
+.orbital3{
+    height: 800px;
+    width: 800px;
+    border: 1px dashed white;
+    border-radius: 50%;
+    position: absolute;
+    transform: translate(-360px,-360px);    
+}
+

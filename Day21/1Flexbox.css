@@ -1,0 +1,65 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    /* flex-direction: column; */
+    background-color: aquamarine;
+
+    height: 800px;
+        /* Align-self ka liya */
+    justify-content: center;
+    align-items: center;
+}
+
+.box{
+    height: 150px;
+    width: 150px;
+    border: 2px solid black;
+}
+
+.box1{
+    background-color: red;
+    /* order: 2; */
+    /* align-self:flex-end; */
+}
+
+.box2{
+    background-color: blue;
+    /* width: 600px; */
+    /* order: 19; */
+    /* flex-grow: 1; */
+    /* flex-shrink: 5; */
+    /* flex-basis: 300px; */
+}
+
+.box3{
+    background-color: green;
+    /* order: -1; */
+    /* flex-grow: 2; */
+    /* flex-shrink: 2; */
+    /* align-self:flex-start; */
+        /* flex shorthand */
+    flex: 2 2 200px;
+}
+
+.box4{
+    background-color: orange;
+}
+
+/* flex item */
+
+/* 1. order -> it defines the order of element default order is zero less order number comes first 
+is sai hum kisi bhi element ka position hum change kar sakta hai : default order=0*/
+
+/* 2. flex-grow ->  yah batata hai ki koi bhi item kisi dusra item ki tulna mai
+kitna grow karna chaiya when extra space is available in the flex container default flex-grow=0
+ye main axis ki or grow karta hai*/
+
+/* 3. flex-shrink = 2 it means jis bhi element par ye property lagi hai wo or sab element ka mukabala 
+dugni speed sai shrink karegi  */
+
+/* 4. flex-basis ->yah jis bhi element par lagaga uski width badha dega main axis ki or */
+
+/* 5. align-self -> agar hum kisi particular element ko top,bottom,left,right karna chata hai toh iska use karega
+ye cross axis ki taraf property set kar sakta hai */
+
+/* flex Shorthand -> flex : [flex-grow] [flex-shrink] [flex-basis]*/
